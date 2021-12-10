@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradienthomepage"
+    >
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="278dp"
+        android:layout_height="50sp"
+        android:textSize="35sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30sp"
+        android:text="Your User Name "
+        />
+
+    <TextView
+        android:id="@+id/usernameshow"
+        android:layout_width="281dp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30sp"
+        android:background="#ffff"
+        android:textColor="@color/black"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif"
+        android:text="Your Password"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/passwordshow"
+        android:layout_width="281dp"
+        android:layout_height="50sp"
+        android:text=""
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30sp"
+        android:background="#ffff"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="281dp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFD500"
+
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/closeappbutton"
+        android:layout_marginLeft="30sp"
+        android:layout_width="281dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#00FFFF"
+        android:text="Close" />
+</LinearLayout>
